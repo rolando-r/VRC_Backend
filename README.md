@@ -1,12 +1,12 @@
-# 🚗 Project VRC - Specialized Services Registry and Control 🛠️
+# 🚗 Project VRC Backend - Specialized Services Registry and Control 🛠️
 
 ## Description
 
-Project VRC is an application designed to keep a record and maintain control of all the specialized services provided by the workshop "VRC" across its various branches throughout the country. VRC is a workshop specialized in offering maintenance, repair, and customization services for vehicles. With the expansion of its operations, there arises a need for a centralized tool that facilitates the management of services performed and optimizes communication between the different branches.
+Project VRC Backend is an application designed to keep a record and maintain control of all the specialized services provided by the workshop "VRC" across its various branches throughout the country. VRC is a workshop specialized in offering maintenance, repair, and customization services for vehicles. With the expansion of its operations, there arises a need for a centralized tool that facilitates the management of services performed and optimizes communication between the different branches.
 
 ## Objective
 
-The main objective of Project VRC is to provide a digital platform that allows the company to keep a detailed track of all the specialized services it offers to its customers. The primary purposes of the system are as follows:
+The main objective of Project VRC Backend is to provide a digital platform that allows the company to keep a detailed track of all the specialized services it offers to its customers. The primary purposes of the system are as follows:
 
 1. **Centralized Registry** 📝: The application will provide a centralized record of all services rendered by VRC's various branches. This will eliminate the need for physical systems or paper documents, making information easily accessible and reducing the likelihood of data loss.
 
