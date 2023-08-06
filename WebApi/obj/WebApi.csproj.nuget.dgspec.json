@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Aplicacion\\Aplicacion.csproj": {
+    "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Aplicacion\\Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Aplicacion\\Aplicacion.csproj",
+        "projectUniqueName": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Aplicacion\\Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Aplicacion\\Aplicacion.csproj",
+        "projectPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Aplicacion\\Aplicacion.csproj",
         "packagesPath": "C:\\Users\\roola\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Aplicacion\\obj\\",
+        "outputPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\roola\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,11 +26,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Dominio\\Dominio.csproj": {
-                "projectPath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Dominio\\Dominio.csproj"
+              "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Dominio\\Dominio.csproj"
               },
-              "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Persistencia\\Persistencia.csproj"
+              "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -64,14 +64,14 @@
         }
       }
     },
-    "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Dominio\\Dominio.csproj",
+        "projectPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\roola\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Dominio\\obj\\",
+        "outputPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\roola\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -139,14 +139,14 @@
         }
       }
     },
-    "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Persistencia\\Persistencia.csproj": {
+    "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Persistencia\\Persistencia.csproj",
+        "projectPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Persistencia\\Persistencia.csproj",
         "packagesPath": "C:\\Users\\roola\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Persistencia\\obj\\",
+        "outputPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\roola\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -161,8 +161,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Dominio\\Dominio.csproj": {
-                "projectPath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Dominio\\Dominio.csproj"
+              "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -216,14 +216,14 @@
         }
       }
     },
-    "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\WebApi\\WebApi.csproj",
+        "projectPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\roola\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\roola\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -232,14 +232,15 @@
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Aplicacion\\Aplicacion.csproj": {
-                "projectPath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Aplicacion\\Aplicacion.csproj"
+              "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Aplicacion\\Aplicacion.csproj": {
+                "projectPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Aplicacion\\Aplicacion.csproj"
               }
             }
           }
@@ -259,6 +260,12 @@
               "version": "[7.0.9, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.9, )"
             },

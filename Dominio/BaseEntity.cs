@@ -1,5 +1,5 @@
 namespace Dominio;
 public class BaseEntity
 {
-    public string ? IdCodigo { get; set; }   
+    public string ? IdCod { get; set; }   
 }

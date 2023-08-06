@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W69P2/ydwCHeNxn74O6VHfqf8J+344dM+WlRbICq3mUWfBl6GDw29gMvNnzrXTZAGF0trpByfC0+CMYSxartng==",
+  "dgSpecHash": "iqxAtNtVHRM19ZSLFjv5K5M2aBVwkO+9m9Ub6EEDX4342jxgwiXNNVJuBs9hVRBAor8qXd6vuZ9jjfakrX4izQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Dominio\\Dominio.csproj",
+  "projectFilePath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Dominio\\Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\roola\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\roola\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

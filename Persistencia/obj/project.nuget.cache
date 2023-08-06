@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dtJm9LGbx3JrcoEWaiESC5ctwFoT7puaLd18O5YdPALjmR+jqZDtla5kfsolcJSnWsOwdV10n7Apgx4cY4aRog==",
+  "dgSpecHash": "44tbZNmnO0F7y2ptwCGgl8DcpDByLw/hEUoKNs7hCetOFNRno+bHcfFG+XlKwtC8UroJOF2Wyhc8XIQqOMHLJw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Persistencia\\Persistencia.csproj",
+  "projectFilePath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Persistencia\\Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\roola\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\roola\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

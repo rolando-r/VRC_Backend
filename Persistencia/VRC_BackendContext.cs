@@ -1,7 +1,6 @@
 using System.Reflection;
 using Dominio;
 using Microsoft.EntityFrameworkCore;
-
 namespace Persistencia
 {
     public class VRC_BackendContext : DbContext
@@ -47,46 +46,18 @@ namespace Persistencia
         public DbSet<TipoVehiculo> ? TipoVehiculos { get; set; }
         public DbSet<Vehiculo> ? Vehiculos { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
-    {
-        modelBuilder.ApplyConfiguration(new Afiliacion());
-        modelBuilder.ApplyConfiguration(new Ciudad());
-        modelBuilder.ApplyConfiguration(new ContactoPersona());
-        modelBuilder.ApplyConfiguration(new Departamento());
-        modelBuilder.ApplyConfiguration(new DetalleFactura());
-        modelBuilder.ApplyConfiguration(new Empresa());
-        modelBuilder.ApplyConfiguration(new Especialidad());
-        modelBuilder.ApplyConfiguration(new EstadoOrden());
-        modelBuilder.ApplyConfiguration(new Factura());
-        modelBuilder.ApplyConfiguration(new InspeccionParte());
-        modelBuilder.ApplyConfiguration(new Marca());
-        modelBuilder.ApplyConfiguration(new Modelo());
-        modelBuilder.ApplyConfiguration(new Movimiento());
-        modelBuilder.ApplyConfiguration(new Orden());
-        modelBuilder.ApplyConfiguration(new OrdenDiagnostico());
-        modelBuilder.ApplyConfiguration(new OrdenServicio());
-        modelBuilder.ApplyConfiguration(new Pais());
-        modelBuilder.ApplyConfiguration(new ParteVehiculo());
-        modelBuilder.ApplyConfiguration(new Persona());
-        modelBuilder.ApplyConfiguration(new PersonaAfiliacion());
-        modelBuilder.ApplyConfiguration(new PersonaEspecialidad());
-        modelBuilder.ApplyConfiguration(new PersonaServicio());
-        modelBuilder.ApplyConfiguration(new PrestadorServicio());
-        modelBuilder.ApplyConfiguration(new Producto());
-        modelBuilder.ApplyConfiguration(new ProductoOrdenSer());
-        modelBuilder.ApplyConfiguration(new Recomendacion());
-        modelBuilder.ApplyConfiguration(new Servicio());
-        modelBuilder.ApplyConfiguration(new Sucursal());
-        modelBuilder.ApplyConfiguration(new TipoContacto());
-        modelBuilder.ApplyConfiguration(new TipoMovimiento());
-        modelBuilder.ApplyConfiguration(new TipoPersona());
-        modelBuilder.ApplyConfiguration(new TipoPrestadorSer());
-        modelBuilder.ApplyConfiguration(new TipoProducto());
-        modelBuilder.ApplyConfiguration(new TipoServicio());
-        modelBuilder.ApplyConfiguration(new TipoVehiculo());
-        modelBuilder.ApplyConfiguration(new Vehiculo());
-
-        base.OnModelCreating(modelBuilder);
-        modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
-    }
+        {
+            // modelBuilder.Entity<Persona>().HasIndex(idx => idx.EmailPersona).IsUnique();
+            modelBuilder.Entity<PersonaAfiliacion>().HasKey(r => new { r.IdPersona, r.IdAfiliacion });
+            modelBuilder.Entity<PersonaEspecialidad>().HasKey(r => new { r.IdPersona, r.IdEspecialidad});
+            modelBuilder.Entity<OrdenDiagnostico>().HasKey(r => new { r.IdPersona, r.IdOrden});
+            modelBuilder.Entity<OrdenServicio>().HasKey(r => new { r.IdOrden, r.IdServicio});
+            modelBuilder.Entity<ProductoOrdenSer>().HasKey(r => new { r.IdOrdenServicio, r.IdProducto});
+            modelBuilder.Entity<PersonaServicio>().HasKey(r => new { r.IdPersona, r.IdServicio});
+            modelBuilder.Entity<ContactoPersona>().HasKey(r => new { r.IdPersona, r.IdTipoContacto});
+            
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+        }
     }
 }

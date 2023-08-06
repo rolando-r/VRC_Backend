@@ -5298,8 +5298,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Dominio\\Dominio.csproj": {
-              "projectPath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Dominio\\Dominio.csproj"
+            "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Dominio\\Dominio.csproj"
             }
           }
         }
