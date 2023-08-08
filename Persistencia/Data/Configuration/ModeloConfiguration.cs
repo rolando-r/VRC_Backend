@@ -15,5 +15,12 @@ public class ModeloConfiguration : IEntityTypeConfiguration<Modelo>
         builder.Property(p => p.IdCod)
         .ValueGeneratedNever();
         
+        builder.Property(p => p.NombreModelo)
+        .IsRequired()
+        .HasMaxLength(50);
+
+        builder.HasOne(p => p.Marca)
+        .WithMany(e => e.Modelos)
+        .HasForeignKey(i => i.IdMarca);
     }
 }

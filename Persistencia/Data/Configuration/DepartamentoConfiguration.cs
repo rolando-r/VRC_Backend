@@ -15,5 +15,12 @@ public class DepartamentoConfiguration : IEntityTypeConfiguration<Departamento>
         builder.Property(p => p.IdCod)
         .ValueGeneratedNever();
         
+        builder.Property(p => p.NombreDepartamento)
+        .IsRequired()
+        .HasMaxLength(100);
+
+        builder.HasOne(p => p.Pais)
+        .WithMany(e => e.Departamentos)
+        .HasForeignKey(i => i.IdPais);
     }
 }

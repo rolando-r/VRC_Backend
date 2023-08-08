@@ -15,5 +15,8 @@ public class TipoPrestadorSerConfiguration : IEntityTypeConfiguration<TipoPresta
         builder.Property(p => p.IdCod)
         .ValueGeneratedNever();
         
+        builder.Property(p => p.NombreTipoPrestadorSer)
+        .IsRequired()
+        .HasMaxLength(100);
     }
 }

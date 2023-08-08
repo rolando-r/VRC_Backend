@@ -15,5 +15,8 @@ public class TipoContactoConfiguration : IEntityTypeConfiguration<TipoContacto>
         builder.Property(p => p.IdCod)
         .ValueGeneratedNever();
         
+        builder.Property(p => p.NombreTipoContacto)
+        .IsRequired()
+        .HasMaxLength(100);
     }
 }

@@ -15,5 +15,16 @@ public class FacturaConfiguration : IEntityTypeConfiguration<Factura>
         builder.Property(p => p.IdCod)
         .ValueGeneratedNever();
         
+        builder.Property(p => p.NumeroFactura)
+        .IsRequired()
+        .HasColumnType("int");
+
+        builder.Property(p => p.Total)
+        .IsRequired()
+        .HasColumnType("int");
+
+        builder.Property(p => p.EstadoFactura)
+        .IsRequired()
+        .HasMaxLength(50);
     }
 }

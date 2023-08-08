@@ -15,5 +15,12 @@ public class InspeccionParteConfiguration : IEntityTypeConfiguration<InspeccionP
         builder.Property(p => p.IdCod)
         .ValueGeneratedNever();
         
+        builder.Property(p => p.NombreInspeccionParte)
+        .IsRequired()
+        .HasMaxLength(50);
+
+        builder.HasOne(p => p.ParteVehiculo)
+        .WithMany(e => e.InspeccionPartes)
+        .HasForeignKey(i => i.IdParteVehiculo);
     }
 }

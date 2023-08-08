@@ -15,5 +15,8 @@ public class RecomendacionConfiguration : IEntityTypeConfiguration<Recomendacion
         builder.Property(p => p.IdCod)
         .ValueGeneratedNever();
         
+        builder.Property(p => p.DescripcionRec)
+        .IsRequired()
+        .HasMaxLength(250);
     }
 }

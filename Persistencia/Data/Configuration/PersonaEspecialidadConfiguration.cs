@@ -15,5 +15,12 @@ public class PersonaEspecialidadConfiguration : IEntityTypeConfiguration<Persona
         builder.Property(p => p.IdCod)
         .ValueGeneratedNever();
         
+        builder.HasOne(p => p.Especialidad)
+        .WithMany(e => e.PersonaEspecialidades)
+        .HasForeignKey(i => i.IdEspecialidad);
+
+        builder.HasOne(p => p.Persona)
+        .WithMany(e => e.PersonaEspecialidades)
+        .HasForeignKey(i => i.IdPersona);
     }
 }

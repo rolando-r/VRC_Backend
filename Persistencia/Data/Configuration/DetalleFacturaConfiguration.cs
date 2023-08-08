@@ -15,5 +15,12 @@ public class DetalleFacturaConfiguration : IEntityTypeConfiguration<DetalleFactu
         builder.Property(p => p.IdCod)
         .ValueGeneratedNever();
         
+        builder.HasOne(p => p.Recomendacion)
+        .WithMany(e => e.DetalleFacturas)
+        .HasForeignKey(i => i.IdRecomendacion);
+
+        builder.HasOne(p => p.Factura)
+        .WithMany(e => e.DetalleFacturas)
+        .HasForeignKey(i => i.IdFactura);
     }
 }

@@ -15,5 +15,8 @@ public class TipoServicioConfiguration : IEntityTypeConfiguration<TipoServicio>
         builder.Property(p => p.IdCod)
         .ValueGeneratedNever();
         
+        builder.Property(p => p.NombreTipoServicio)
+        .IsRequired()
+        .HasMaxLength(120);
     }
 }

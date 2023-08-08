@@ -9,4 +9,5 @@ public class Sucursal : BaseEntity
     public Ciudad ? Ciudad { get; set; }
     public string ? IdEmpresa { get; set; }
     public Empresa ? Empresa { get; set; }
+    public IEnumerable<Persona> ? Personas { get; set; }
 }

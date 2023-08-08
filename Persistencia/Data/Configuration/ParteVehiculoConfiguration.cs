@@ -15,5 +15,12 @@ public class ParteVehiculoConfiguration : IEntityTypeConfiguration<ParteVehiculo
         builder.Property(p => p.IdCod)
         .ValueGeneratedNever();
         
+        builder.Property(p => p.NombreParteVehiculo)
+        .IsRequired()
+        .HasMaxLength(50);
+
+        builder.HasOne(p => p.EstadoParte)
+        .WithMany(e => e.ParteVehiculos)
+        .HasForeignKey(i => i.IdEstadoParte);
     }
 }

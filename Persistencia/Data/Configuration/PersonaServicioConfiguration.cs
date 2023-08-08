@@ -15,5 +15,12 @@ public class PersonaServicioConfiguration : IEntityTypeConfiguration<PersonaServ
         builder.Property(p => p.IdCod)
         .ValueGeneratedNever();
         
+        builder.HasOne(p => p.Servicio)
+        .WithMany(e => e.PersonaServicios)
+        .HasForeignKey(i => i.IdServicio);
+
+        builder.HasOne(p => p.Persona)
+        .WithMany(e => e.PersonaServicios)
+        .HasForeignKey(i => i.IdPersona);
     }
 }

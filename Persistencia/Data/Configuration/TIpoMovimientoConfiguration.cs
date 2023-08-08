@@ -15,5 +15,8 @@ public class TipoMovimientoConfiguration : IEntityTypeConfiguration<TipoMovimien
         builder.Property(p => p.IdCod)
         .ValueGeneratedNever();
         
+        builder.Property(p => p.NombreTipoMovimiento)
+        .IsRequired()
+        .HasMaxLength(50);
     }
 }

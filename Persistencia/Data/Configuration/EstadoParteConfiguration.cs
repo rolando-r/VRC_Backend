@@ -15,5 +15,8 @@ public class EstadoParteConfiguration : IEntityTypeConfiguration<EstadoParte>
         builder.Property(p => p.IdCod)
         .ValueGeneratedNever();
         
+        builder.Property(p => p.NombreEstadoParte)
+        .IsRequired()
+        .HasMaxLength(50);
     }
 }

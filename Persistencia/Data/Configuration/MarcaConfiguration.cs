@@ -15,5 +15,8 @@ public class MarcaConfiguration : IEntityTypeConfiguration<Marca>
         builder.Property(p => p.IdCod)
         .ValueGeneratedNever();
         
+        builder.Property(p => p.NombreMarca)
+        .IsRequired()
+        .HasMaxLength(50);
     }
 }

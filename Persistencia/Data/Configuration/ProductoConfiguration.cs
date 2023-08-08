@@ -15,5 +15,32 @@ public class ProductoConfiguration : IEntityTypeConfiguration<Producto>
         builder.Property(p => p.IdCod)
         .ValueGeneratedNever();
         
+        builder.Property(p => p.NombreProducto)
+        .IsRequired()
+        .HasMaxLength(100);
+
+        builder.Property(p => p.PrecioProducto)
+        .IsRequired()
+        .HasColumnType("int");
+
+        builder.Property(p => p.Descripcion)
+        .IsRequired()
+        .HasMaxLength(250);
+
+        builder.Property(p => p.Stock)
+        .IsRequired()
+        .HasColumnType("int");
+
+        builder.HasOne(p => p.Movimiento)
+        .WithMany(e => e.Productos)
+        .HasForeignKey(i => i.IdMovimiento);
+
+        builder.HasOne(p => p.TipoProducto)
+        .WithMany(e => e.Productos)
+        .HasForeignKey(i => i.IdTipoProducto);
+
+        builder.HasOne(p => p.Persona)
+        .WithMany(e => e.Productos)
+        .HasForeignKey(i => i.IdPersona);
     }
 }

@@ -15,5 +15,8 @@ public class PaisConfiguration : IEntityTypeConfiguration<Pais>
         builder.Property(p => p.IdCod)
         .ValueGeneratedNever();
         
+        builder.Property(p => p.NombrePais)
+        .IsRequired()
+        .HasMaxLength(50);
     }
 }

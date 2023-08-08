@@ -15,5 +15,24 @@ public class ProductoOrdenSerConfiguration : IEntityTypeConfiguration<ProductoOr
         builder.Property(p => p.IdCod)
         .ValueGeneratedNever();
         
+        builder.Property(p => p.Cantidad)
+        .IsRequired()
+        .HasColumnType("int");
+
+        builder.Property(p => p.EstadoProdOrdenSer)
+        .IsRequired()
+        .HasColumnType("int");
+
+        builder.Property(p => p.PrecioTotalProducto)
+        .IsRequired()
+        .HasColumnType("int");
+
+        builder.HasOne(p => p.OrdenServicio)
+        .WithMany(e => e.ProductoOrdenSers)
+        .HasForeignKey(i => i.IdOrdenServicio);
+
+        builder.HasOne(p => p.Producto)
+        .WithMany(e => e.ProductoOrdenSers)
+        .HasForeignKey(i => i.IdProducto);
     }
 }

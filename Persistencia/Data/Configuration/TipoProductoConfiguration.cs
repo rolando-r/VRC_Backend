@@ -15,5 +15,8 @@ public class TipoProductoConfiguration : IEntityTypeConfiguration<TipoProducto>
         builder.Property(p => p.IdCod)
         .ValueGeneratedNever();
         
+        builder.Property(p => p.NombreTipoProducto)
+        .IsRequired()
+        .HasMaxLength(120);
     }
 }

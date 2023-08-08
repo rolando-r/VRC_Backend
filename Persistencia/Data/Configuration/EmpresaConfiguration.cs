@@ -15,5 +15,8 @@ public class EmpresaConfiguration : IEntityTypeConfiguration<Empresa>
         builder.Property(p => p.IdCod)
         .ValueGeneratedNever();
         
+        builder.Property(p => p.NombreEmpresa)
+        .IsRequired()
+        .HasMaxLength(50);
     }
 }

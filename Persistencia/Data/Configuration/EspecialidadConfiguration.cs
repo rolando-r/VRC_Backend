@@ -15,5 +15,8 @@ public class EspecialidadConfiguration : IEntityTypeConfiguration<Especialidad>
         builder.Property(p => p.IdCod)
         .ValueGeneratedNever();
         
+        builder.Property(p => p.NombreEspecialidad)
+        .IsRequired()
+        .HasMaxLength(100);
     }
 }

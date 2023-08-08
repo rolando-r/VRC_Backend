@@ -15,5 +15,12 @@ public class PersonaAfiliacionConfiguration : IEntityTypeConfiguration<PersonaAf
         builder.Property(p => p.IdCod)
         .ValueGeneratedNever();
         
+        builder.HasOne(p => p.Persona)
+        .WithMany(e => e.PersonaAfiliaciones)
+        .HasForeignKey(i => i.IdPersona);
+
+        builder.HasOne(p => p.Afiliacion)
+        .WithMany(e => e.PersonaAfiliaciones)
+        .HasForeignKey(i => i.IdAfiliacion);
     }
 }

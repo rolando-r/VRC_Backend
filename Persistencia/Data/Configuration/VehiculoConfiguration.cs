@@ -15,5 +15,24 @@ public class VehiculoConfiguration : IEntityTypeConfiguration<Vehiculo>
         builder.Property(p => p.IdCod)
         .ValueGeneratedNever();
         
+        builder.Property(p => p.Placa)
+        .IsRequired()
+        .HasMaxLength(20);
+
+        builder.HasOne(p => p.Persona)
+        .WithMany(e => e.Vehiculos)
+        .HasForeignKey(i => i.IdPersona);
+
+        builder.HasOne(p => p.InspeccionParte)
+        .WithMany(e => e.Vehiculos)
+        .HasForeignKey(i => i.IdInspeccionParte);
+
+        builder.HasOne(p => p.TipoVehiculo)
+        .WithMany(e => e.Vehiculos)
+        .HasForeignKey(i => i.IdTipoVehiculo);
+
+        builder.HasOne(p => p.Modelo)
+        .WithMany(e => e.Vehiculos)
+        .HasForeignKey(i => i.IdModelo);
     }
 }

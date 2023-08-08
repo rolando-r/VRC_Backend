@@ -15,5 +15,12 @@ public class ServicioConfiguration : IEntityTypeConfiguration<Servicio>
         builder.Property(p => p.IdCod)
         .ValueGeneratedNever();
         
+        builder.Property(p => p.NombreServicio)
+        .IsRequired()
+        .HasMaxLength(150);
+
+        builder.HasOne(p => p.TipoServicio)
+        .WithMany(e => e.Servicios)
+        .HasForeignKey(i => i.IdTipoServicio);
     }
 }

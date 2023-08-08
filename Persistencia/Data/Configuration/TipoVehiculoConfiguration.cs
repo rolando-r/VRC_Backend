@@ -15,5 +15,8 @@ public class TipoVehiculoConfiguration : IEntityTypeConfiguration<TipoVehiculo>
         builder.Property(p => p.IdCod)
         .ValueGeneratedNever();
         
+        builder.Property(p => p.NombreTipoVehiculo)
+        .IsRequired()
+        .HasMaxLength(120);
     }
 }

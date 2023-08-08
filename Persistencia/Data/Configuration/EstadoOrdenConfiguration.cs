@@ -15,5 +15,8 @@ public class EstadoOrdenConfiguration : IEntityTypeConfiguration<EstadoOrden>
         builder.Property(p => p.IdCod)
         .ValueGeneratedNever();
         
+        builder.Property(p => p.NombreEstadoOrden)
+        .IsRequired()
+        .HasMaxLength(100);
     }
 }

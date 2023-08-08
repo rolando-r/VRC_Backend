@@ -15,5 +15,12 @@ public class PrestadorServicioConfiguration : IEntityTypeConfiguration<Prestador
         builder.Property(p => p.IdCod)
         .ValueGeneratedNever();
         
+        builder.Property(p => p.NombrePrestadorServicio)
+        .IsRequired()
+        .HasMaxLength(100);
+
+        builder.HasOne(p => p.TipoPrestadorSer)
+        .WithMany(e => e.PrestadorServicios)
+        .HasForeignKey(i => i.IdTipoPrestadorSer);
     }
 }

@@ -15,5 +15,16 @@ public class OrdenDiagnosticoConfiguration : IEntityTypeConfiguration<OrdenDiagn
         builder.Property(p => p.IdCod)
         .ValueGeneratedNever();
         
+        builder.Property(p => p.DescripcionDiagnostico)
+        .IsRequired()
+        .HasMaxLength(250);
+
+        builder.HasOne(p => p.Persona)
+        .WithMany(e => e.OrdenDiagnosticos)
+        .HasForeignKey(i => i.IdPersona);
+
+        builder.HasOne(p => p.Orden)
+        .WithMany(e => e.OrdenDiagnosticos)
+        .HasForeignKey(i => i.IdOrden);
     }
 }
