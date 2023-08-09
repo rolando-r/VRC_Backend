@@ -2,7 +2,7 @@ namespace Dominio;
 public class Producto : BaseEntity
 {
     public string ? NombreProducto { get; set; }
-    public int PrecioProducto { get; set; }
+    public int PrecioVenta { get; set; }
     public string ? Descripcion { get; set; }
     public int Stock { get; set; }
     public string ? IdMovimiento { get; set; }

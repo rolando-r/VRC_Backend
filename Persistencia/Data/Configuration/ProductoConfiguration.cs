@@ -19,7 +19,7 @@ public class ProductoConfiguration : IEntityTypeConfiguration<Producto>
         .IsRequired()
         .HasMaxLength(100);
 
-        builder.Property(p => p.PrecioProducto)
+        builder.Property(p => p.PrecioVenta)
         .IsRequired()
         .HasColumnType("int");
 

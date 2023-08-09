@@ -23,7 +23,7 @@ public class ProductoOrdenSerConfiguration : IEntityTypeConfiguration<ProductoOr
         .IsRequired()
         .HasColumnType("int");
 
-        builder.Property(p => p.PrecioTotalProducto)
+        builder.Property(p => p.PrecioUnitario)
         .IsRequired()
         .HasColumnType("int");
 
