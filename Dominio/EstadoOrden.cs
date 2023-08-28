@@ -1,6 +1,6 @@
 namespace Dominio;
 public class EstadoOrden : BaseEntity
 {
-    public string ? NombreEstadoOrden { get; set; }
-    public ICollection<Orden> ? Ordenes { get; set; }
+    public string NombreEstadoOrden { get; set; }
+    public ICollection<Orden> Ordenes { get; set; }
 }
