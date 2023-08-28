@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WWb8A7tTegn+1Th4haLJwCAZFLv+T+9Zieymh8BUUGHsGLSf5PaanMrdUlvKHygj5/wwEnudWjW+obivFJR8mA==",
+  "dgSpecHash": "BeODnwpT1QLsCkcVuhl12T3DIlBPz9DUuB6J1yQ+mYe2oZU4NbgjliBp5Y4/gzgjjEUbc4sEOgI5LsIGiKNHnA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Dominio\\Dominio.csproj",
+  "projectFilePath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\Dominio\\Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\roola\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\roola\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",

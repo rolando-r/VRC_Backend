@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CV5RACwJpWZzTvdiAEuLNAQqOB7YCzsJwSGljqFTGQYcPWSlxD2ynZPd+OhSgC0K682qKGpGevfk6KnmI0Xyqg==",
+  "dgSpecHash": "vhcnkX2v5ImoJ+f3pGC029fPZIFSJGfz17eoBiz2HE9OqvOpklSkAldiS929Az7reeWET9JMgTZmxBHHOVv1VA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\ApiVRC\\ApiVRC.csproj",
+  "projectFilePath": "C:\\Users\\roola\\OneDrive\\Escritorio\\Programación\\Pruebas Campus\\VRC_Backend\\ApiVRC\\ApiVRC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\roola\\.nuget\\packages\\aspnetcoreratelimit\\5.0.0\\aspnetcoreratelimit.5.0.0.nupkg.sha512",
     "C:\\Users\\roola\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",

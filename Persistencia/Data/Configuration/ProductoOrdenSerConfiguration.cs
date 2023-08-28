@@ -21,7 +21,7 @@ public class ProductoOrdenSerConfiguration : IEntityTypeConfiguration<ProductoOr
 
         builder.Property(p => p.EstadoProdOrdenSer)
         .IsRequired()
-        .HasColumnType("int");
+        .HasMaxLength(20);
 
         builder.Property(p => p.PrecioUnitario)
         .IsRequired()
